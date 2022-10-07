@@ -25,6 +25,13 @@ func main() {
 		Atk: 10,
 	}
 
+	npc := NPC{
+		Hp:  30,
+		Atk: 10,
+	}
+
+	fmt.Printf("NPC HP %d\n", npc.Hp)
+
 	rand.Seed(time.Now().UnixMicro())
 
 	for true {
